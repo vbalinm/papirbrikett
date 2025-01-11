@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-
+  text-align: center;
   margin: 10px 0px 40px;
 }
 
@@ -26,10 +26,6 @@ h1, h2{
 #brikettek{
   width: 90%;
   max-width: 500px;
-}
-
-p{
-  text-align: justify;
 }
 
 p:first-letter{
@@ -56,8 +52,17 @@ p:first-letter{
 
 .kiemelt{
   font-style: italic;
+  font-weight: bold;
 }
 
 li{
   margin-top: 10px;
+}
+
+p{
+  text-align: justify;
+}
+
+.beljebb {
+  margin-left: 20px;
 }
